@@ -2,13 +2,13 @@
 using Meadow;
 using System.Linq;
 using Meadow.Devices;
+using System.Reflection;
 using Meadow.Foundation;
 using System.Threading.Tasks;
 using Meadow.Foundation.Leds;
 using Meadow.Peripherals.Leds;
-using System.Reflection;
 
-namespace HelloMeadow2
+namespace HelloMeadow
 {
     // Change F7FeatherV2 to F7FeatherV1 for V1.x boards
     public class MeadowApp : App<F7FeatherV1>
