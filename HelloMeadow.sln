@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMeadow", "HelloMeadow\HelloMeadow.csproj", "{A8762329-5C66-457F-81A8-1820D0658709}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8762329-5C66-457F-81A8-1820D0658709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8762329-5C66-457F-81A8-1820D0658709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8762329-5C66-457F-81A8-1820D0658709}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A8762329-5C66-457F-81A8-1820D0658709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8762329-5C66-457F-81A8-1820D0658709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8762329-5C66-457F-81A8-1820D0658709}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E6B7FB0-B612-4250-9FA2-A6A461F6C4C7}
+	EndGlobalSection
+EndGlobal
