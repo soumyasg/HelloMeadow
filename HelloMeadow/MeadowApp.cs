@@ -6,6 +6,7 @@ using Meadow.Foundation;
 using System.Threading.Tasks;
 using Meadow.Foundation.Leds;
 using Meadow.Peripherals.Leds;
+using System.Reflection;
 
 namespace HelloMeadow2
 {
@@ -35,7 +36,9 @@ namespace HelloMeadow2
         private async Task CycleColors(TimeSpan duration)
         {
             Console.WriteLine("Cycle colors...");
-            var colors = typeof(Color).GetFields().Where(p => p.DeclaringType == typeof(Color));//.Where(p => p.DeclaringType == typeof(Color)).ToList();
+
+            var colors = typeof(Color).GetFields(bindingAttr: BindingFlags.Public | BindingFlags.Static).Where(p => p.DeclaringType == typeof(Color));
+
             var index = 0;
 
             while (true)
